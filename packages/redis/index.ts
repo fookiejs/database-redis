@@ -19,7 +19,9 @@ export const Redis = async function (Fookie) {
                 })
             })
         },
-        disconnect: async function () {},
+        disconnect: async function () {
+            return true
+        },
         modify: function (model) {
             model.methods = {}
 
