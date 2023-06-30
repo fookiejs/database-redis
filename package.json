@@ -1,7 +1,7 @@
 {
     "name": "fookie-redis",
     "description": "Redis database plugin for Fookie JS.",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "main": "dist/index.js",
     "scripts": {
         "test": "echo 'no-test'",
